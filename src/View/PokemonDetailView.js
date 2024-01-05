@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
-const PokemonDetailScreen = ({ route }) => {
+const PokemonDetailView = ({ route }) => {
     const { pokemon } = route.params;
 
     return (
@@ -45,4 +45,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default PokemonDetailScreen;
+export default PokemonDetailView;

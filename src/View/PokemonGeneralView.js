@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { View, FlatList, TextInput, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import PokemonAPIService from './PokemonAPIService';
-import PokemonGeneralViewModel from './PokemonGeneralViewModel';
-import PokemonItem from './PokemonItem';
+import PokemonAPIService from '../Service/PokemonAPIService';
+import PokemonGeneralViewModel from '../ViewModel/PokemonGeneralViewModel';
+import PokemonItem from '../Components/PokemonItem';
 
 const PokemonGeneralView = () => {
     const [pokemonData, setPokemonData] = useState([]);

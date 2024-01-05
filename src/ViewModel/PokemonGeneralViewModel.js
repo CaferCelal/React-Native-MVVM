@@ -1,4 +1,4 @@
-import PokemonModel from './PokemonModel';
+import PokemonModel from '../Model/PokemonModel';
 
 class PokemonGeneralViewModel {
     static processPokemonData(data) {
